@@ -140,7 +140,7 @@ SQL queries played a crucial role in deriving valuable insights from the bank lo
 
 ### Query 1: Year-wise Loan Amount Statistics
 
-SQL Query:
+**SQL Query:**
 ```sql
      CREATE VIEW YearlyLoanStats AS
 	 SELECT 
@@ -152,6 +152,11 @@ SQL Query:
 			year
      ORDER BY 
 			year;
+```
+**SQL Query to Print:**
+```sql
+	 #USING VIEWS FOR KPI 1
+     SELECT * FROM yearlyloanstats;
 ```
 
 ### Query 2: Grade and Sub-grade-wise Revol_bal
@@ -171,8 +176,8 @@ SQL Query:
 	ORDER BY 
 			1,2;
 ```
-Query 3: Total Payment for Verified vs. Non-Verified Status
-SQL Query:
+### Query 3: Total Payment for Verified vs. Non-Verified Status
+**SQL Query:**
 
 ```sql
    CREATE VIEW Total_Payment_Verification_Status_Wise AS
@@ -191,8 +196,8 @@ SQL Query:
 			Total_payment_in_millions;
 ```
 
-Query 4: State-wise and Month-wise Loan Status
-SQL Query:
+### Query 4: State-wise and Month-wise Loan Status
+**SQL Query:**
 ```sql
    CREATE VIEW State_wise_and_month_wise_loan_status AS
      SELECT
@@ -211,8 +216,8 @@ SQL Query:
             Month;
 ```
 
-Query 5: Home Ownership vs. Last Payment Date Statistics
-SQL Query:
+### Query 5: Home Ownership vs. Last Payment Date Statistics
+**SQL Query:**
 
 ```sql
    CREATE VIEW  Home_ownership_Vs_last_payment_date_stats AS
