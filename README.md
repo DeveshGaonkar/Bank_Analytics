@@ -64,70 +64,19 @@ The datasets underwent thorough data preprocessing, including handling missing v
 ## Dashboard Creation
 
 ### Excel Dashboard
-
-#### Purpose and Objectives
-
-The Excel dashboard was designed to provide an easily accessible platform for visualizing key financial insights from the bank loan data, enabling quick decision-making for stakeholders.
-
-#### Design and Layout
-
-The Excel dashboard features a clean and organized layout, prioritizing clarity and ease of understanding. Color choices were made to enhance visual hierarchy and aid comprehension.
-
-#### Data Visualization Components
-
-The dashboard includes bar charts, line graphs, and pivot tables to represent KPIs such as loan amount trends and payment behaviors. These visualizations were selected for their effectiveness in conveying data patterns.
-
-#### PivotTables and Charts
-
-PivotTables were employed to dynamically summarize and aggregate loan data by various attributes. Charts were linked to PivotTables for interactive updates as filters change.
-
-#### User Interaction Features
-
-The Excel dashboard offers dropdown menus for filtering data by attributes like year and state. Buttons enable users to refresh data or perform specific calculations.
+The Excel dashboard serves as a quick-access platform for visualizing crucial financial insights from the bank loan data. It is designed with a clean and organized layout that prioritizes clarity and comprehension. 
+The dashboard utilizes various data visualization components such as bar charts, line graphs, and PivotTables to represent key performance indicators (KPIs) such as loan amount trends and payment behaviors. It offers user-friendly features like dropdown menus for data filtering, buttons for data refreshing, and dynamic updates linked to PivotTables.
 
 ### Power BI Dashboard
-
-#### Purpose and Objectives
-
-The Power BI dashboard was designed to provide an immersive and interactive data exploration experience, aiding in uncovering insights and trends within the bank loan dataset.
-
-#### Design and Layout
-
-The dashboard layout is intuitive, featuring a balanced distribution of visualizations and filtering options. The design prioritizes visual clarity and responsiveness.
-
-#### Data Visualization Components
-
-Visualizations include treemaps, line charts, and slicers, showcasing KPIs like loan status distribution and payment comparisons. They're arranged for easy comprehension.
-
-#### Interactive Filters and Slicers
-
-Users can filter data using slicers for attributes like year, grade, and state. Cross-filtering enables instant updates across visuals based on user selections.
-
-#### Drill-through Features
-
-Users can drill through specific data points to access more detailed information. Clicking on elements like states or categories allows for deeper exploration.
+The Power BI dashboard offers an immersive and interactive data exploration experience, allowing users to uncover insights and trends within the bank loan dataset. Its intuitive layout strikes a balance between visualizations and filtering options, ensuring visual clarity and responsiveness. 
+The dashboard features a range of data visualization components, including treemaps, line charts, and slicers, which effectively showcase KPIs like loan status distribution and payment comparisons. Users can interactively filter data using slicers and perform cross-filtering to achieve instant updates across visuals based on their selections. 
+Additionally, drill-through features enable users to access more detailed information by clicking on specific data points.
 
 ### Tableau Dashboard
+The Tableau dashboard provides an interactive platform for in-depth analysis of bank loan data, facilitating a deeper understanding of loan behaviors and patterns. 
+Its design follows a clean and modern approach, with visuals strategically positioned for a cohesive data exploration experience. The dashboard integrates a variety of data visualization components, including scatter plots, bar charts, and a geographic map, to depict KPIs such as credit grade relationships and loan status distribution. 
+Users can interact with filters to dynamically adjust visualizations, and hovering over data points reveals detailed tooltips that enhance user comprehension. Dashboard actions and filters, such as filter actions and highlight actions, enable users to explore correlations and details by interacting with one visualization to affect others.
 
-#### Purpose and Objectives
-
-The Tableau dashboard aims to provide an interactive platform for comprehensive analysis of bank loan data, facilitating a deeper understanding of loan behaviors and patterns.
-
-#### Design and Layout
-
-The dashboard design follows a clean and modern approach, with strategically positioned visuals for a cohesive data exploration experience.
-
-#### Data Visualization Components
-
-The dashboard integrates scatter plots, bar charts, and a geographic map to depict KPIs such as credit grade relationships and loan status distribution.
-
-#### Interactive Dashboard Features
-
-Users can interact with filters to dynamically adjust visualizations. Hovering over data points reveals detailed tooltips, enhancing user comprehension.
-
-#### Dashboard Actions and Filters
-
-Actions like filter actions and highlight actions enable users to explore correlations and details by interacting with one visualization to affect others.
 
 ## SQL Queries and Data Analysis
 
@@ -299,5 +248,5 @@ Future work could involve predictive modeling for loan defaults, advanced SQL an
 ## Contact Information
 - **[Name]:** Devesh Gaonkar
 - **[Email Address]:** gaonkardevesh@gmail.com
-- **[LinkedIn Profile]:** [Link to Your LinkedIn Profile]
-- **[GitHub Repository]:** [Link to the GitHub Repository for This Project]
+- **[LinkedIn Profile]:** https://www.linkedin.com/in/devesh-gaonkar/
+- **[GitHub Repository]:** https://github.com/DeveshGaonkar/Bank_Analytics
