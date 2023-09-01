@@ -143,7 +143,7 @@ SQL queries played a crucial role in deriving valuable insights from the bank lo
 **SQL Query:**
 ```sql
      CREATE VIEW YearlyLoanStats AS
-	 SELECT 
+     SELECT 
 			year(issue_d) as Year,
 			FORMAT(sum(loan_amnt) / 1000000, 0) as loan_amount_in_millions
      FROM 
@@ -155,82 +155,107 @@ SQL queries played a crucial role in deriving valuable insights from the bank lo
 ```
 **SQL Query to Print:**
 ```sql
-	 #USING VIEWS FOR KPI 1
+     #USING VIEWS FOR KPI 1
      SELECT * FROM yearlyloanstats;
 ```
 
 ### Query 2: Grade and Sub-grade-wise Revol_bal
 **SQL Query:**
 ```sql
-    CREATE VIEW GradeSubgrade_Revol_Bal AS 
-	SELECT 
+      CREATE VIEW GradeSubgrade_Revol_Bal AS 
+      SELECT 
 			f1.grade,
 			f1.sub_grade,
 			FORMAT(SUM(f2.revol_bal) / 1000000, 0) AS revol_bal_in_millions
-	FROM 
+      FROM 
 			finance1 AS f1
-	JOIN 
+      JOIN 
 			finance2 AS f2 ON f2.id = f1.id
-	GROUP BY 
+      GROUP BY 
 			1,2
-	ORDER BY 
+      ORDER BY 
 			1,2;
 ```
+
+**SQL Query to Print:**
+```sql
+      #USING VIEWS FOR KPI 2
+      SELECT * FROM gradesubgrade_revol_bal;
+```
+
 ### Query 3: Total Payment for Verified vs. Non-Verified Status
 **SQL Query:**
 
 ```sql
-   CREATE VIEW Total_Payment_Verification_Status_Wise AS
-     SELECT 
+      CREATE VIEW Total_Payment_Verification_Status_Wise AS
+      SELECT 
 			verification_status, 
 			FORMAT(SUM(total_pymnt) / 1000000, 2) AS Total_payment_in_millions
-     FROM 
+      FROM 
 			finance1 AS f1 
-     INNER JOIN 
+      INNER JOIN 
 			finance2 AS f2 ON f1.id = f2.id
-     WHERE 
+      WHERE 
 			verification_status IN ( "Not Verified","Verified")
-     GROUP BY 
+      GROUP BY 
 			verification_status
-	 ORDER BY 
+      ORDER BY 
 			Total_payment_in_millions;
+```
+
+**SQL Query to Print:**
+```sql
+     #USING VIEWS For KPI 3
+     SELECT * FROM Total_Payment_Verification_Status_Wise;
 ```
 
 ### Query 4: State-wise and Month-wise Loan Status
 **SQL Query:**
 ```sql
-   CREATE VIEW State_wise_and_month_wise_loan_status AS
+     CREATE VIEW State_wise_and_month_wise_loan_status AS
      SELECT
 			addr_state AS State,
 			month(issue_d) as Month,
 			MONTHNAME(issue_d) AS Month_Name, 
-            COUNT(loan_status) AS Loan_Status
+                        COUNT(loan_status) AS Loan_Status
      FROM 
 			finance1
      GROUP BY 
 			State,
-            Month,
-            Month_Name
+                        Month,
+                        Month_Name
      ORDER BY 
 			State,
-            Month;
+                        Month;
+```
+
+**SQL Query to Print:**
+```sql
+     #USING VIEWS FOR KPI 4
+     SELECT * FROM State_wise_and_month_wise_loan_status;
 ```
 
 ### Query 5: Home Ownership vs. Last Payment Date Statistics
 **SQL Query:**
 
 ```sql
-   CREATE VIEW  Home_ownership_Vs_last_payment_date_stats AS
-	SELECT 
+      CREATE VIEW  Home_ownership_Vs_last_payment_date_stats AS
+      SELECT 
 			f1.home_ownership, 
 			YEAR(f2.last_pymnt_d) AS last_pymnt_year,
 			COUNT(f1.id) AS countofid
-	FROM 
+      FROM 
 			finance1 AS f1
-	JOIN 
+      JOIN 
 			finance2 AS f2 ON f2.id = f1.id
-	GROUP BY 
+      GROUP BY 
 			1,2
-	ORDER BY 
+      ORDER BY 
 			1,2;
+```
+
+**SQL Query to Print:**
+```sql
+     #USING VIEWS FOR KPI 5
+     SELECT * FROM Home_ownership_Vs_last_payment_date_stats;
 ```
