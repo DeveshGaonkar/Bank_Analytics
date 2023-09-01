@@ -142,7 +142,7 @@ SQL queries played a crucial role in deriving valuable insights from the bank lo
 
 SQL Query:
 ```sql
-[     CREATE VIEW YearlyLoanStats AS
+     CREATE VIEW YearlyLoanStats AS
 	 SELECT 
 			year(issue_d) as Year,
 			FORMAT(sum(loan_amnt) / 1000000, 0) as loan_amount_in_millions
@@ -151,4 +151,24 @@ SQL Query:
      GROUP BY 
 			year
      ORDER BY 
-			year;]
+			year;
+```
+
+### Query 2: Grade and Sub-grade-wise Revol_bal
+**SQL Query:**
+```sql
+    CREATE VIEW GradeSubgrade_Revol_Bal AS 
+	SELECT 
+			f1.grade,
+			f1.sub_grade,
+			FORMAT(SUM(f2.revol_bal) / 1000000, 0) AS revol_bal_in_millions
+	FROM 
+			finance1 AS f1
+	JOIN 
+			finance2 AS f2 ON f2.id = f1.id
+	GROUP BY 
+			1,2
+	ORDER BY 
+			1,2;
+```
+
