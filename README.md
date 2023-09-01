@@ -142,4 +142,13 @@ SQL queries played a crucial role in deriving valuable insights from the bank lo
 
 SQL Query:
 ```sql
-[Provide SQL query here]
+[     CREATE VIEW YearlyLoanStats AS
+	 SELECT 
+			year(issue_d) as Year,
+			FORMAT(sum(loan_amnt) / 1000000, 0) as loan_amount_in_millions
+     FROM 
+			finance1 
+     GROUP BY 
+			year
+     ORDER BY 
+			year;]
