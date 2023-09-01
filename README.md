@@ -44,15 +44,15 @@ Welcome to the AI Variant Data Analyst Internship Project: Bank Analytics! This 
 
 The project focuses on five key performance indicators (KPIs) to gain insights from the bank loan data:
 
-1. **Year-wise Loan Amount Statistics:** Visualize trends in loan amounts over different years to identify patterns and changes in lending behavior.
+1. **Year-wise Loan Amount Statistics.
 
-2. **Grade and Sub-grade-wise Revol_bal:** Analyze the relationship between credit grades, sub-grades, and revolving balances to assess risk associated with different customer profiles.
+2. **Grade and Sub-grade-wise Revol_bal.
 
-3. **Total Payment for Verified vs. Non-Verified Status:** Compare total payments made by customers with verified income status to those with non-verified income status.
+3. **Total Payment for Verified vs. Non-Verified Status.
 
-4. **State-wise and Month-wise Loan Status:** Present loan status distribution across different states and months to identify geographical or temporal patterns.
+4. **State-wise and Month-wise Loan Status.
 
-5. **Home Ownership vs. Last Payment Date Statistics:** Analyze the relationship between home ownership and timing of the last payment to understand how housing situation might impact payment behavior.
+5. **Home Ownership vs. Last Payment Date Statistics.
 
 ## Data Collection and Preprocessing
 
