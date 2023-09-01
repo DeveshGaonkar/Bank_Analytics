@@ -1,4 +1,3 @@
-# Bank_Analytics
 # AI VARIANT DATA ANALYST INTERNSHIP PROJECT: BANK ANALYTICS
 
 ## Table of Contents
@@ -9,8 +8,6 @@
 4. [Data Collection and Preprocessing](#data-collection-and-preprocessing)
     - [Data Sources](#data-sources)
     - [Data Cleaning and Transformation](#data-cleaning-and-transformation)
-    - [Data Overview](#data-overview)
-    - [Challenges and Considerations](#challenges-and-considerations)
 5. [Dashboard Creation](#dashboard-creation)
     - [Excel Dashboard](#excel-dashboard)
     - [Power BI Dashboard](#power-bi-dashboard)
@@ -259,3 +256,48 @@ SQL queries played a crucial role in deriving valuable insights from the bank lo
      #USING VIEWS FOR KPI 5
      SELECT * FROM Home_ownership_Vs_last_payment_date_stats;
 ```
+
+
+## SQL Code and Explanation
+Each query's SQL code is designed to retrieve, aggregate, and calculate specific metrics. Explanation accompanying the code provides clarity on the logic applied and the importance of the query within the project's context.
+
+## Insights from SQL Analysis
+The SQL analysis reveals trends such as changing loan amounts over the years, the connection between credit grades and revolving balances, payment behavior differences between verified and non-verified statuses, geographical and temporal loan status patterns, and insights into payment behaviors linked to home ownership.
+
+## Usage Instructions
+### Cloning the Repository:
+Clone the project repository using the command `git clone https://github.com/your-username/bank-analytics-internship.git` in your preferred terminal. This creates a local copy of the project files on your machine.
+
+### Setting Up Data Sources:
+To work with the dashboards and SQL queries, ensure `Finance_1.xlsx` and `Finance_2.xlsx` are available in the designated folders. Open the respective dashboard tools and link these datasets to your project.
+
+### Accessing and Interacting with Dashboards:
+1. Open the Excel dashboard by double-clicking `Bank_Analytics_Dashboard.xlsx`.
+2. In Power BI, open `Bank_Analytics.pbix`.
+3. In Tableau, open `Bank_Analytics.twb`.
+4. Navigate through tabs and interact with charts by selecting dropdowns, buttons, and filters.
+
+### Running SQL Queries:
+Install a SQL environment MySQL. Copy each SQL query from the documentation and execute it in the SQL environment. Observe the query output for insights.
+
+### Troubleshooting and FAQs:
+If dashboards don't load properly, ensure the required software is installed. For SQL query issues, check SQL syntax and ensure data sources are accurately linked. For more FAQs, refer to the documentation.
+
+## Conclusion
+### Project Summary
+The project involved analyzing bank loan data using Excel, Power BI, and Tableau dashboards, as well as SQL queries. Key insights were derived to understand lending patterns, payment behaviors, and geographic trends.
+
+### Achievements and Insights
+The project successfully created interactive dashboards showcasing critical KPIs, revealing trends like year-wise loan amounts, credit grade associations, and payment disparities. Insights contributed to informed decision-making.
+
+### Lessons Learned
+Challenges included dataset cleaning and tool-specific nuances. The project highlighted the importance of clear visualization design and thorough data understanding for meaningful analysis.
+
+### Future Enhancements
+Future work could involve predictive modeling for loan defaults, advanced SQL analysis, or integration with live data sources to maintain real-time insights.
+
+## Contact Information
+- **[Name]:** Devesh Gaonkar
+- **[Email Address]:** gaonkardevesh@gmail.com
+- **[LinkedIn Profile]:** [Link to Your LinkedIn Profile]
+- **[GitHub Repository]:** [Link to the GitHub Repository for This Project]
