@@ -171,4 +171,61 @@ SQL Query:
 	ORDER BY 
 			1,2;
 ```
+Query 3: Total Payment for Verified vs. Non-Verified Status
+SQL Query:
 
+```sql
+   CREATE VIEW Total_Payment_Verification_Status_Wise AS
+     SELECT 
+			verification_status, 
+			FORMAT(SUM(total_pymnt) / 1000000, 2) AS Total_payment_in_millions
+     FROM 
+			finance1 AS f1 
+     INNER JOIN 
+			finance2 AS f2 ON f1.id = f2.id
+     WHERE 
+			verification_status IN ( "Not Verified","Verified")
+     GROUP BY 
+			verification_status
+	 ORDER BY 
+			Total_payment_in_millions;
+```
+
+Query 4: State-wise and Month-wise Loan Status
+SQL Query:
+```sql
+   CREATE VIEW State_wise_and_month_wise_loan_status AS
+     SELECT
+			addr_state AS State,
+			month(issue_d) as Month,
+			MONTHNAME(issue_d) AS Month_Name, 
+            COUNT(loan_status) AS Loan_Status
+     FROM 
+			finance1
+     GROUP BY 
+			State,
+            Month,
+            Month_Name
+     ORDER BY 
+			State,
+            Month;
+```
+
+Query 5: Home Ownership vs. Last Payment Date Statistics
+SQL Query:
+
+```sql
+   CREATE VIEW  Home_ownership_Vs_last_payment_date_stats AS
+	SELECT 
+			f1.home_ownership, 
+			YEAR(f2.last_pymnt_d) AS last_pymnt_year,
+			COUNT(f1.id) AS countofid
+	FROM 
+			finance1 AS f1
+	JOIN 
+			finance2 AS f2 ON f2.id = f1.id
+	GROUP BY 
+			1,2
+	ORDER BY 
+			1,2;
+```
