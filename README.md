@@ -67,15 +67,31 @@ The datasets underwent thorough data preprocessing, including handling missing v
 The Excel dashboard serves as a quick-access platform for visualizing crucial financial insights from the bank loan data. It is designed with a clean and organized layout that prioritizes clarity and comprehension. 
 The dashboard utilizes various data visualization components such as bar charts, line graphs, and PivotTables to represent key performance indicators (KPIs) such as loan amount trends and payment behaviors. It offers user-friendly features like dropdown menus for data filtering, buttons for data refreshing, and dynamic updates linked to PivotTables.
 
+![E](https://github.com/DeveshGaonkar/Bank_Analytics/assets/138006145/0d49b385-96c4-49e0-8f44-e22ad6f7a5da)
+
+
 ### Power BI Dashboard
 The Power BI dashboard offers an immersive and interactive data exploration experience, allowing users to uncover insights and trends within the bank loan dataset. Its intuitive layout strikes a balance between visualizations and filtering options, ensuring visual clarity and responsiveness. 
+
+![P1](https://github.com/DeveshGaonkar/Bank_Analytics/assets/138006145/0a85abcc-9414-43b4-90f6-ce67b8377392)
+
 The dashboard features a range of data visualization components, including treemaps, line charts, and slicers, which effectively showcase KPIs like loan status distribution and payment comparisons. Users can interactively filter data using slicers and perform cross-filtering to achieve instant updates across visuals based on their selections. 
 Additionally, drill-through features enable users to access more detailed information by clicking on specific data points.
+
+![P2](https://github.com/DeveshGaonkar/Bank_Analytics/assets/138006145/d94b0aae-63e5-4d14-8330-7619ed32a1dd)
+
+
 
 ### Tableau Dashboard
 The Tableau dashboard provides an interactive platform for in-depth analysis of bank loan data, facilitating a deeper understanding of loan behaviors and patterns. 
 Its design follows a clean and modern approach, with visuals strategically positioned for a cohesive data exploration experience. The dashboard integrates a variety of data visualization components, including scatter plots, bar charts, and a geographic map, to depict KPIs such as credit grade relationships and loan status distribution. 
+
+![T1](https://github.com/DeveshGaonkar/Bank_Analytics/assets/138006145/dcf99827-08a6-4b20-8beb-e27bed4713a4)
+
+
 Users can interact with filters to dynamically adjust visualizations, and hovering over data points reveals detailed tooltips that enhance user comprehension. Dashboard actions and filters, such as filter actions and highlight actions, enable users to explore correlations and details by interacting with one visualization to affect others.
+
+![T2](https://github.com/DeveshGaonkar/Bank_Analytics/assets/138006145/7aff8b64-9f38-4ec4-a867-6b2dd9c08ede)
 
 
 ## SQL Queries and Data Analysis
@@ -105,6 +121,9 @@ SQL queries played a crucial role in deriving valuable insights from the bank lo
      SELECT * FROM yearlyloanstats;
 ```
 
+![sk01](https://github.com/DeveshGaonkar/Bank_Analytics/assets/138006145/cdfa8867-57dc-451b-9f3f-912ced3e7359)
+
+
 ### Query 2: Grade and Sub-grade-wise Revol_bal
 **SQL Query:**
 ```sql
@@ -128,6 +147,9 @@ SQL queries played a crucial role in deriving valuable insights from the bank lo
       #USING VIEWS FOR KPI 2
       SELECT * FROM gradesubgrade_revol_bal;
 ```
+
+![sk02](https://github.com/DeveshGaonkar/Bank_Analytics/assets/138006145/13d7c37d-3c30-41c3-968c-5cffaa775be7)
+
 
 ### Query 3: Total Payment for Verified vs. Non-Verified Status
 **SQL Query:**
@@ -155,6 +177,9 @@ SQL queries played a crucial role in deriving valuable insights from the bank lo
      SELECT * FROM Total_Payment_Verification_Status_Wise;
 ```
 
+![sk03](https://github.com/DeveshGaonkar/Bank_Analytics/assets/138006145/9bc189ca-94e7-4939-8d40-d4978c6a9258)
+
+
 ### Query 4: State-wise and Month-wise Loan Status
 **SQL Query:**
 ```sql
@@ -181,6 +206,9 @@ SQL queries played a crucial role in deriving valuable insights from the bank lo
      SELECT * FROM State_wise_and_month_wise_loan_status;
 ```
 
+![sk04](https://github.com/DeveshGaonkar/Bank_Analytics/assets/138006145/f3b51046-4c8d-44f4-a6ea-5acf485f98f5)
+
+
 ### Query 5: Home Ownership vs. Last Payment Date Statistics
 **SQL Query:**
 
@@ -206,6 +234,7 @@ SQL queries played a crucial role in deriving valuable insights from the bank lo
      SELECT * FROM Home_ownership_Vs_last_payment_date_stats;
 ```
 
+![sk05](https://github.com/DeveshGaonkar/Bank_Analytics/assets/138006145/1be08acb-fe5c-4bb1-a445-9bdd165cbc98)
 
 ## SQL Code and Explanation
 Each query's SQL code is designed to retrieve, aggregate, and calculate specific metrics. Explanation accompanying the code provides clarity on the logic applied and the importance of the query within the project's context.
