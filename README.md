@@ -286,7 +286,7 @@ Future work could involve predictive modeling for loan defaults, advanced SQL an
 [Link to the Tableau.](https://public.tableau.com/views/bankloan_16937576565150/Story?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)  
 [Link to the Excel.](https://docs.google.com/spreadsheets/d/1A5eRp-fyUN9bW4NdfzWEZE4HkHuNv5PO/edit?usp=drive_link&ouid=115465960996122487206&rtpof=true&sd=true)  
 [Documentation or tutorials on using Power BI Desktop.](https://learn.microsoft.com/en-us/power-bi/fundamentals/service-get-started)  
-[Documentation or tutorials on using Tableau.](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm)
-[Documentation or tutorials on using MySQL.](https://www.javatpoint.com/mysql-tutorial) 
-[Documentation or tutorials on using Excel.](https://www.javatpoint.com/excel-tutorial) 
+[Documentation or tutorials on using Tableau.](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm)  
+[Documentation or tutorials on using MySQL.](https://www.javatpoint.com/mysql-tutorial)  
+[Documentation or tutorials on using Excel.](https://www.javatpoint.com/excel-tutorial)  
 
