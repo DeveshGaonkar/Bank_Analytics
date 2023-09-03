@@ -24,6 +24,7 @@
 7. [Usage Instructions](#usage-instructions)
 8. [Conclusion](#conclusion)
 9. [Contact Information](#contact-information)
+10. [Additional Resources](#additional-resources)
 
 ## Introduction
 
@@ -279,3 +280,13 @@ Future work could involve predictive modeling for loan defaults, advanced SQL an
 - **[Email Address]:** gaonkardevesh@gmail.com
 - **[LinkedIn Profile]:** https://www.linkedin.com/in/devesh-gaonkar/
 - **[GitHub Repository]:** https://github.com/DeveshGaonkar/Bank_Analytics
+
+## Additional Resources  
+[Link to the PowerBi.](https://app.powerbi.com/reportEmbed?reportId=4763f0ba-dbf1-45f1-9be1-42924915009f&autoAuth=true&ctid=b548b9e2-466a-4d81-903b-24cf8cc5e37e)  
+[Link to the Tableau.](https://public.tableau.com/views/bankloan_16937576565150/Story?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)  
+[Link to the Excel.](https://docs.google.com/spreadsheets/d/1A5eRp-fyUN9bW4NdfzWEZE4HkHuNv5PO/edit?usp=drive_link&ouid=115465960996122487206&rtpof=true&sd=true)  
+[Documentation or tutorials on using Power BI Desktop.](https://learn.microsoft.com/en-us/power-bi/fundamentals/service-get-started)  
+[Documentation or tutorials on using Tableau.](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm)
+[Documentation or tutorials on using MySQL.](https://www.javatpoint.com/mysql-tutorial) 
+[Documentation or tutorials on using Excel.](https://www.javatpoint.com/excel-tutorial) 
+
