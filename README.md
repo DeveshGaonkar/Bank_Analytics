@@ -245,7 +245,7 @@ The SQL analysis reveals trends such as changing loan amounts over the years, th
 
 ## Usage Instructions
 ### Cloning the Repository:
-Clone the project repository using the command `git clone https://github.com/your-username/bank-analytics-internship.git` in your preferred terminal. This creates a local copy of the project files on your machine.
+Clone the project repository using the command `git clone https://github.com/DeveshGaonkar/Bank_Analytics` in your preferred terminal. This creates a local copy of the project files on your machine.
 
 ### Setting Up Data Sources:
 To work with the dashboards and SQL queries, ensure `Finance_1.xlsx` and `Finance_2.xlsx` are available in the designated folders. Open the respective dashboard tools and link these datasets to your project.
