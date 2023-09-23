@@ -1,5 +1,5 @@
 # AI VARIANT DATA ANALYST INTERNSHIP PROJECT: BANK ANALYTICS
-Analyzing bank analytics data for an AI Variant Data Analyst internship project.
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
