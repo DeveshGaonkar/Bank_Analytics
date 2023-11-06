@@ -276,10 +276,10 @@ Challenges included dataset cleaning and tool-specific nuances. The project high
 Future work could involve predictive modeling for loan defaults, advanced SQL analysis, or integration with live data sources to maintain real-time insights.
 
 ## Contact Information
-- **[Name]:** Devesh Gaonkar
-- **[Email Address]:** gaonkardevesh@gmail.com
-- **[LinkedIn Profile]:** https://www.linkedin.com/in/devesh-gaonkar/
-- **[GitHub Repository]:** https://github.com/DeveshGaonkar/Bank_Analytics
+- **Name:** Devesh Gaonkar
+- **Email Address:** gaonkardevesh@gmail.com
+- **LinkedIn Profile:** https://www.linkedin.com/in/devesh-gaonkar/
+- **GitHub Repository:** https://github.com/DeveshGaonkar/Bank_Analytics
 
 ## Additional Resources  
 [Link to the PowerBi.](https://app.powerbi.com/reportEmbed?reportId=4763f0ba-dbf1-45f1-9be1-42924915009f&autoAuth=true&ctid=b548b9e2-466a-4d81-903b-24cf8cc5e37e)  
